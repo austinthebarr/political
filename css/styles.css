@@ -1,0 +1,11 @@
+#liberal {
+  display: none;
+  color: red;
+  background-color: blue;
+}
+
+#conservative {
+  display: none;
+  color: blue;
+  background-color: red;
+}

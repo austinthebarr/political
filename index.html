@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Polical Meter</title>
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <script src="js/jquery-3.3.1.js"></script>
+      <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="formOne">
+      <h2>Do you support Marriage equality?</h2>
+      <div class="radio">
+        <label>
+          <input type="radio" name="marriage" value="0" checked>
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="marriage" value="10">
+          No
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="marriage" value="5">
+            On the fence
+        </label>
+      </div>
+
+    <h2>Do you support Universal Healthcare?</h2>
+    <div class="radio">
+      <label>
+        <input type="radio" name="healthcare" value="0" checked>
+        Yes
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="healthcare" value="10">
+        No
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="healthcare" value="5">
+          On the fence
+      </label>
+    </div>
+
+    <h2>Do you enjoy reading Breitbart?</h2>
+    <div class="radio">
+      <label>
+        <input type="radio" name="breitbart" value="50" checked>
+        Yes
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="breitbart" value="0">
+        No
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="breitbart" value="10">
+        On the fence
+      </label>
+
+    </div>
+    <button type="submit" name="Results" class="btn btn-success">Get results!</button>
+    </form>
+    <div id="liberal" class="well">
+    Liberal!
+    </div>
+    <div id="conservative" class="well">
+    CONSERVATIVE!
+    </div>
+  </div>
+</body>
+</html>
