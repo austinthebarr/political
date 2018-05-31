@@ -1,6 +1,12 @@
+var add = function(marriage,healthcare,breitbart){
+  return marriage + healthcare + breitbart;
+};
+
+
+
+
 $(function(){
   $("#formOne").submit(function(event) {
-
 
     var marriage = parseInt($("input:radio[name=marriage]:checked").val());
 
@@ -8,9 +14,8 @@ $(function(){
 
     var breitbart = parseInt($("input:radio[name=breitbart]:checked").val());
 
-    var add = marriage + healthcare + breitbart;
 
-      if (add > 11) {
+      if (add(marriage,healthcare,breitbart) > 11) {
         $('#conservative').show();
         $('#liberal').hide();
       } else {
