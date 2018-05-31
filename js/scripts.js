@@ -8,10 +8,8 @@ $(function(){
 
     var breitbart = parseInt($("input:radio[name=breitbart]:checked").val());
 
-    var add = function() {
-      return marriage + healthcare + breitbart;
-    };
-    debugger
+    var add = marriage + healthcare + breitbart;
+
       if (add > 11) {
         $('#conservative').show();
         $('#liberal').hide();
